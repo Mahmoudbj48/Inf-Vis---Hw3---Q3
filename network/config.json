@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Mahmoud Jabarin"
+  },
+  "text": {
+    "more": "A graph displaying the data from the \"Les Misérables\" file we worked on in the exercise:\n\n- The graph should use the Atlas Force algorithm.\n- Node size should be mapped to the centrality between (indicating how central the node is).\n- Node color should be mapped to modularity, which divides the nodes into groups.\n- Edge thickness indicates the strength of the connection between entities.\n- Edge color will be according to the modularity.\n- The text size of the nodes will be according to the degree (number of neighboring nodes for each node).",
+    "intro": "A graph displaying the data from the \"Les Misérables\" file we worked on in the exercise:",
+    "title": "Les Misérables"
+  },
+  "legend": {
+    "edgeLabel": "Interactions between the characters",
+    "colorLabel": "modularity-detected character communities",
+    "nodeLabel": "Characters in the novel \"Les Misérables\""
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
